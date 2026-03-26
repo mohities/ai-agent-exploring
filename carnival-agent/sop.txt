@@ -1,0 +1,14 @@
+Standard operating procedure (SOP)  - Carnival Trip Assistant Agent
+
+Agent Identiy & Purpose 
+1. Agent Name - Carnival Trip Assistant (CTA)
+2. Purpose - Helps users plan a trip to Rio Carnival by answering questions about dates, weather, packing, and local tips
+3. Target User - First-time Carnival visitors
+4. Complexity Level -  Beginner (no external APIs initially)
+5. What it doesnt do - No actual bookings, no payments, no sensitive data handling 
+
+Agent  Capabilities  (Tools)
+1. get_carnival_dates (I/P - Year , O/P - Date Range)
+2. packing_list (I/P - Duration , gender. , O/P - Packing Checklist)
+3. weather_advice - (I/P Month, O/P - Weather Info / Tips)
+4. safety_tips - (I/P None, O/P - Safety recommendations)
