@@ -12,3 +12,18 @@ Agent  Capabilities  (Tools)
 2. packing_list (I/P - Duration , gender. , O/P - Packing Checklist)
 3. weather_advice - (I/P Month, O/P - Weather Info / Tips)
 4. safety_tips - (I/P None, O/P - Safety recommendations)
+
+Decision Flows -
+    - User Input - > Identify Intent - > 
+    1. carnival_dates - call get_carnival_dates
+    2. packing  - call packing_list
+    3. weather updates - call weather_advice
+    4. safety - call safety_tips
+    5. unknown - reponse  i dont know it.. will check with my supervisor
+
+
+Measurement Criteria 
+1. Intent detection accuracy
+2. Response Helpfulness
+3. No hallucinations
+4. Response time
